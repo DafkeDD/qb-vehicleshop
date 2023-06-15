@@ -3,6 +3,7 @@ welcome to qb-vehicleshop with stock system
 
 - add the folder to your qb folder or replace qb-vehicleshop with this one
 - add the stock.sql to your database
+- add a webhook to your config.lua 
 
 restart the server
 and run the /setstock command
