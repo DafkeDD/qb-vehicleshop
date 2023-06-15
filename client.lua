@@ -1098,14 +1098,11 @@ RegisterNetEvent('qb-vehicleshop:client:create_delevery_blip', function(k, shop)
     TriggerEvent('qb-vehicleshop:client:checkdeleverydistance',coords, k)
 end)
 
-
 RegisterNetEvent('qb-vehicleshop:client:addtostock', function(data, vehicle, svehicle)
     local vehicle = GetVehiclePedIsIn(PlayerPedId())
     DeleteVehicle(vehicle)
     TriggerServerEvent('qb-vehicleshop:owncar',data, spawnedcar, svehicle)
 end)
-
-
 
 RegisterCommand('checkstock', function()
     QBCore.Functions.TriggerCallback('test:server:checkstock', function(stock)
