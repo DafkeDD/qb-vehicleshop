@@ -6,6 +6,7 @@ welcome to qb-vehicleshop with stock system
 
 restart the server
 and run the /setstock command
+
 enjoy
 
 
